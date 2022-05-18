@@ -11,10 +11,10 @@
     "declaration": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "noImplicitAny": true,
-    "strictNullChecks": true,
+    "noImplicitAny": false,
     "noImplicitReturns": true,
-    "strictPropertyInitialization": true,
-    "suppressExcessPropertyErrors": true
+    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "strict": true
   }
 }
